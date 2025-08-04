@@ -2,14 +2,14 @@
 
 This project demonstrates how to automate code deployment using GitHub Actions and Docker.
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - Node.js
 - Docker
 - GitHub Actions
 - DockerHub
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 ci-cd-nodejs-app/
@@ -23,24 +23,24 @@ ci-cd-nodejs-app/
 └── README.md
 ```
 
-## 🚀 Steps to Run
+##  Steps to Run
 
 1. Fork this repo and clone it.
 2. Create a public DockerHub repo.
 3. In GitHub → Settings → Secrets → Actions:
-   - `DOCKER_USERNAME`
+   - `DOCKER_nodejs`
    - `DOCKER_PASSWORD`
 4. Push to `main` branch → GitHub Action will:
    - Build Docker image
    - Push it to DockerHub
 
-## 🔗 DockerHub Output
+##  DockerHub Output
 
 Image will be available at:
 ```
-docker pull your-docker-username/nodejs-demo:latest
+docker pull your-docker-abhayrajak19/nodejs-demo:latest
 ```
 
-## 📞 Author
+##  Author
 
-Abhay Rajak – [Your Email or GitHub]
+Abhay Rajak – [abhay1001rajak@gmail.com]
